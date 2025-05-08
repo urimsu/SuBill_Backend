@@ -6,10 +6,10 @@ import os
 
 originLink="https://subill.su-tech.org"
 
-host_name=os.environ.get(hostname)# type: ignore
-host_user=os.environ.get(hostuser)# type: ignore
-host_password=os.environ.get(hostpassword)# type: ignore
-host_database=os.environ.get(hostdatabase) # type: ignore
+host_name=os.environ.get('hostname')# type: ignore
+host_user=os.environ.get('hostuser')# type: ignore
+host_password=os.environ.get('hostpassword')# type: ignore
+host_database=os.environ.get('hostdatabase') # type: ignore
 
 
 app = Flask(__name__)
