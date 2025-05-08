@@ -4,7 +4,7 @@ import mysql.connector
 from mysql.connector import Error
 import os
 
-originLink="https://subill.su-tech.org"
+originLink="http://subill.su-tech.org"
 
 host_name=os.environ.get('hostname')# type: ignore
 host_user=os.environ.get('hostuser')# type: ignore
