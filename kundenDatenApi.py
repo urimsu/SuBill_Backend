@@ -26,10 +26,10 @@ def create_connection():
     connection = None
     try:
         connection = mysql.connector.connect(
-            host='w01f678f.kasserver.com',            # z.B. 'mysql5.all-inkl.com'
-            user='d0418500',    # dein MySQL-Benutzername
-            password='Silleman1122.',     # dein MySQL-Passwort
-            database='d0418500'    # deine MySQL-Datenbank
+            host=host_name,            # z.B. 'mysql5.all-inkl.com'
+            user=host_user,    # dein MySQL-Benutzername
+            password=host_password,     # dein MySQL-Passwort
+            database=host_database    # deine MySQL-Datenbank
         )
         print("Verbindung zur Datenbank erfolgreich")
     except Error as e:
